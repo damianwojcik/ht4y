@@ -1,0 +1,632 @@
+@charset "UTF-8";
+/*
+
+Theme Name: Holistic Therapy
+Theme URI: www.damianwojcik.it
+Description: Holistic Therapy
+Version: 1.0
+Author: dwojcik.me
+Author URI: www.dwojcik.me
+
+*/
+
+/* old color: #FDC134 */
+
+/*
+  Flaticon icon font: Flaticon
+  Creation date: 18/11/2020 14:15
+*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./assets/fonts/Flaticon.eot");
+  src: url("./assets/fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+        url("./assets/fonts/Flaticon.woff2") format("woff2"),
+        url("./assets/fonts/Flaticon.woff") format("woff"),
+        url("./assets/fonts/Flaticon.ttf") format("truetype"),
+        url("./assets/fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./assets/fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.flaticon-physiotherapy:before { content: "\f100"; }
+.flaticon-positive-thinking:before { content: "\f101"; }
+.flaticon-mental-health:before { content: "\f102"; }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Roboto", Sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  color: #808000;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 0;
+  display: inline-block;
+  background: #808000;
+  padding: 12px 18px;
+  transition: all 0.3s ease;
+  color: #fff;
+  font: normal bold 15px / 17px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.btn:hover {
+  background: #676700;
+  color: #fff;
+}
+
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+p {
+  color: #7a7a7a;
+  font: normal  16px / 28px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.top-panel {
+  background: #000;
+  color: #fff;
+  display: none;
+  height: 36px;
+  align-items: center;
+}
+
+.top-panel a {
+  color: #fff;
+}
+
+.top-panel a:hover {
+  color: #808000;
+}
+
+.top-panel .container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1;
+  align-items: center;
+}
+
+.top-panel .left {
+  display: flex;
+}
+
+.top-panel .left p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.top-panel .left p:not(:first-child) {
+  margin-left: 20px;
+}
+
+.top-panel .right li:not(:first-child) {
+  margin-left: 10px;
+}
+
+.nav {
+  background: #808000;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: 'Pangolin', cursive;
+}
+
+.title,
+.curved {
+  font-family: 'Pangolin', cursive;
+}
+
+.toggle {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.toggle.opened {
+  z-index: 99;
+}
+
+.toggle.opened .toggle__line {
+  background: #fff;
+}
+
+.toggle:hover .toggle__line:nth-child(2) {
+  margin: 4px 0;
+}
+
+.toggle__line {
+  display: block;
+  height: 2px;
+  width: 22px;
+  background: #000;
+}
+
+.toggle__line:nth-child(2) {
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav h1 a {
+  color: #fff;
+}
+
+.nav ul {
+  margin-left: auto;
+  flex: 1;
+  margin-left: 100px;
+  margin-top: 5px;
+  display: none;
+}
+
+.nav ul a {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  display: block;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav ul a:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.nav ul li:not(:first-child) {
+  margin-left: 15px;
+}
+
+.nav ul.opened {
+  padding-top: 100px;
+  z-index: 9;
+  display: flex;
+  position: fixed;
+  width: 30vw;
+  height: 100vh;
+  flex-direction: column;
+  background: black;
+  right: 0;
+  top: 0;
+  margin-top: 0;
+}
+
+.nav ul.opened li a {
+  color: #fff;
+}
+
+.nav ul.opened li:not(:first-child) {
+  margin-left: 0;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.about .container {
+  display: flex;
+}
+
+.about .left {
+  display: none;
+}
+
+.about .left .grid {
+  display: grid;
+  grid-template-columns: 260px 260px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.about .left .grid img {
+  display: block;
+  max-width: 100%;
+}
+
+.massages {
+  background: rgb(246, 247, 250);
+}
+
+.massages .row {
+  background: #fff;
+  padding: 30px;
+}
+
+.massages img {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.box {
+  background-color: #f6f7fa;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.box h2 {
+  position: relative;
+}
+
+.box h2:after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 30px auto;
+  background: #808000;
+}
+
+.box ul li {
+  display: block;
+  color: #7a7a7a;
+  padding: 10px;
+  border-bottom: 2px dotted rgba(0,0,0,0.1);
+}
+
+.box .btn {
+  margin-top: 30px;
+}
+
+.benefits {
+  background: #fff;
+  border-bottom: 5px solid rgb(246, 247, 250);
+}
+
+.card {
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  border: 1px solid #222;
+  box-shadow: 5px 10px rgba(0,0,0, 0.5);
+  color: #fff;
+}
+
+.cards .card:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.card-physical {
+  background: #676700;
+}
+
+.card-emotional {
+  background: #4D4D00;
+}
+
+.card-mental {
+  background: #343400;
+}
+
+.card__title {
+  margin-bottom: 15px;
+}
+
+.card__icon {
+  margin-bottom: 15px;
+  display: inline-flex;
+  background: #222;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.card__list li {
+  display: block;
+  line-height: 1.4;
+}
+
+.card__list li:before {
+  content: '+';
+  margin-right: 5px;
+}
+
+.prices .title {
+  margin-bottom: 30px;
+}
+
+.prices .wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  background: rgb(246, 247, 250);
+}
+
+.gallery .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.gallery .grid img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.contact {
+  background: #0E182B;
+}
+
+.contact p {
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: #fff;
+}
+
+.contact a:hover {
+  color: #808000;
+}
+
+.contact .title {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.contact .details {
+  font-size: 22px;
+  line-height: 1;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact .details li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact .details i {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 3px solid rgba(246,247,250,0.15);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.contact .socials {
+  margin-bottom: 30px;
+}
+
+.contact .socials li a {
+  background: #808000;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin-right: 5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.contact .socials li a:hover {
+  background: #676700;
+}
+
+#map {
+  max-width: 100%;
+  width: 100%;
+}
+
+.footer {
+  background: #000;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+  padding: 15px 0;
+}
+
+.footer p a {
+  color: #fff;
+}
+
+.footer p a:hover {
+  color: #808000;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 115px;
+  }
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  .top-panel {
+    display: flex;
+  }
+  .title {
+    margin-bottom: 80px;
+  }
+  .massages .row {
+    display: flex;
+  }
+  .massages .row > * {
+    flex: 1;
+  }
+  .massages .row:nth-child(odd) .left {
+    order: 2;
+  }
+  .prices .box {
+    margin-bottom: 0;
+  }
+  .prices .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .contact .container .title {
+    text-align: left;
+  }
+  .contact .container {
+    display: flex;
+  }
+  .contact .container > * {
+    flex: 1;
+  }
+  .contact .container .right {
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 1020px) {
+  h1 {
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .nav ul {
+    display: flex;
+  }
+  .logo {
+    font-size: 2em;
+  }
+  .toggle {
+    display: none;
+  }
+  .about .left {
+    display: block;
+  }
+  .about .right {
+    padding-left: 50px;
+  }
+  .benefits .cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+  }
+  .cards .card:not(:last-child) {
+    margin-bottom: 0;
+  }  
+  .prices .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
