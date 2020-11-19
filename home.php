@@ -229,7 +229,7 @@
 				<ul>
 					<li>45 min / 45 £</li>
 				</ul>
-				<a href="https://my.setmore.com/bookingpage/097d4b6b-006f-4cf7-8d78-623d9f631242" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -237,7 +237,7 @@
 				<ul>
 					<li>90 min / 75 £</li>
 				</ul>
-				<a href="https://my.setmore.com/bookingpage/097d4b6b-006f-4cf7-8d78-623d9f631242" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -245,7 +245,7 @@
 				<ul>
 					<li>30 min / 30 £</li>
 				</ul>
-				<a href="https://my.setmore.com/bookingpage/097d4b6b-006f-4cf7-8d78-623d9f631242" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -253,7 +253,7 @@
 				<ul>
 					<li>60 min / 55 £</li>
 				</ul>
-				<a href="https://my.setmore.com/bookingpage/097d4b6b-006f-4cf7-8d78-623d9f631242" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -261,7 +261,7 @@
 				<ul>
 					<li>60 min / 50 £</li>
 				</ul>
-				<a href="https://my.setmore.com/bookingpage/097d4b6b-006f-4cf7-8d78-623d9f631242" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -269,7 +269,7 @@
 				<ul>
 					<li>60 min / 50 £</li>
 				</ul>
-				<a href="https://my.setmore.com/bookingpage/097d4b6b-006f-4cf7-8d78-623d9f631242" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -277,7 +277,7 @@
 				<ul>
 					<li>60 min / 50 £</li>
 				</ul>
-				<a href="https://my.setmore.com/bookingpage/097d4b6b-006f-4cf7-8d78-623d9f631242" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -285,7 +285,7 @@
 				<ul>
 					<li>30 min / 25 £</li>
 				</ul>
-				<a href="https://my.setmore.com/bookingpage/097d4b6b-006f-4cf7-8d78-623d9f631242" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -293,7 +293,7 @@
 				<ul>
 					<li>30 min / 30 £</li>
 				</ul>
-				<a href="https://my.setmore.com/bookingpage/097d4b6b-006f-4cf7-8d78-623d9f631242" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
 			</div>
 			<!-- /.box -->
 		</div>

@@ -221,7 +221,7 @@ body {
   display: block;
   height: 2px;
   width: 22px;
-  background: #000;
+  background: #fff;
 }
 
 .toggle__line:nth-child(2) {
@@ -249,6 +249,7 @@ body {
 
 .nav ul a {
   font-size: 16px;
+  color: #fff;
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
@@ -259,7 +260,6 @@ body {
 }
 
 .nav ul a:hover {
-  color: #fff;
   border: 2px solid #fff;
 }
 
@@ -321,6 +321,11 @@ body {
 .massages .row {
   background: #fff;
   padding: 30px;
+  transition: background 0.3s ease;
+}
+
+.massages .row:hover {
+  background: #FFFFE5;
 }
 
 .massages img {
@@ -373,6 +378,7 @@ body {
   border: 1px solid #222;
   box-shadow: 5px 10px rgba(0,0,0, 0.5);
   color: #fff;
+  transition: background 0.3s ease;
 }
 
 .cards .card:not(:last-child) {
@@ -383,12 +389,24 @@ body {
   background: #676700;
 }
 
+.card-physical:hover {
+  background: #81811A;
+}
+
 .card-emotional {
   background: #4D4D00;
 }
 
+.card-emotional:hover {
+  background: #67671A;
+}
+
 .card-mental {
   background: #343400;
+}
+
+.card-mental:hover {
+  background: #4E4E1A;
 }
 
 .card__title {
@@ -436,6 +454,14 @@ body {
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.gallery .grid a {
+  transition: opacity 0.3s ease;
+}
+
+.gallery .grid a:hover {
+  opacity: 0.8;
 }
 
 .gallery .grid img {
