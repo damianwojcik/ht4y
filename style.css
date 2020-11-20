@@ -58,6 +58,19 @@ Author URI: www.dwojcik.me
 
 body {
   font-family: "Roboto", Sans-serif;
+  position: relative;
+}
+
+body.menu--open:after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.75);
+  z-index: 99;
 }
 
 a {
@@ -130,11 +143,7 @@ p {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9;
-}
-
-html {
-  scroll-behavior: smooth;
+  z-index: 999;
 }
 
 body {
@@ -229,6 +238,18 @@ body {
   transition: all 0.3s ease;
 }
 
+.btn-cta {
+  position: absolute;
+  right: 0;
+  bottom: -41px;
+  background: #222;
+}
+
+.btn-cta:hover {
+  opacity: 0.9;
+  background: #222;
+}
+
 .nav .container {
   display: flex;
   align-items: center;
@@ -259,7 +280,8 @@ body {
   transition: all 0.3s ease;
 }
 
-.nav ul a:hover {
+.nav ul a:hover,
+.nav ul li.current-menu-item a {
   border: 2px solid #fff;
 }
 
@@ -273,6 +295,7 @@ body {
   display: flex;
   position: fixed;
   width: 30vw;
+  min-width: 200px;
   height: 100vh;
   flex-direction: column;
   background: black;
@@ -283,6 +306,7 @@ body {
 
 .nav ul.opened li a {
   color: #fff;
+  padding-left: 20px;
 }
 
 .nav ul.opened li:not(:first-child) {
@@ -491,7 +515,7 @@ body {
 }
 
 .contact .details {
-  font-size: 22px;
+  font-size: 15px;
   line-height: 1;
   color: #fff;
   font-weight: bold;
@@ -505,7 +529,7 @@ body {
 }
 
 .contact .details i {
-  width: 38px;
+  min-width: 38px;
   height: 38px;
   border-radius: 50%;
   border: 3px solid rgba(246,247,250,0.15);
@@ -569,9 +593,13 @@ body {
   .container {
     max-width: 1170px;
     margin: 0 auto;
+    position: relative;
   }
   .top-panel {
     display: flex;
+  }
+  .btn-cta {
+    bottom: -59px;
   }
   .title {
     margin-bottom: 80px;
@@ -629,6 +657,9 @@ body {
   .nav ul {
     display: flex;
   }
+  .btn-cta {
+    bottom: -53px;
+  }
   .logo {
     font-size: 2em;
   }
@@ -654,5 +685,8 @@ body {
     grid-gap: 30px;
     grid-auto-rows: minmax(100px, auto);
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .contact .details {
+    font-size: 22px;
   }
 }
