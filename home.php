@@ -359,7 +359,7 @@
 			</p>
 			<ul class="details">
 				<li><i class="fas fa-phone"></i><a href="tel: 01304201029">01304201029</a></li>
-				<li><i class="far fa-envelope"></i><a href="mailto: holistictherapy4you@gmail.com">holistictherapy4you@gmail.com</a></li>
+				<li><i class="far fa-envelope"></i><a href="mailto: holistictherapy4you@mail.com">holistictherapy4you@mail.com</a></li>
 				<li><i class="far fa-clock"></i>Tue - Sat 10:00 - 18:00</li>
 				<li><i class="fas fa-map-marker-alt"></i>5 Lombard Street CT9 1EJ Margate</li>
 			</ul>

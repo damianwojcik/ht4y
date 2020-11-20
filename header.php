@@ -31,7 +31,7 @@
 			<div class="container">
 				<div class="left">
 					<p><a href="tel: 01304201029">01304201029</a></p>
-					<p><a href="mailto: holistictherapy4you@gmail.com">holistictherapy4you@gmail.com</a></p>
+					<p><a href="mailto: holistictherapy4you@mail.com">holistictherapy4you@mail.com</a></p>
 					<p>Tuesday - Saturday 10:00 - 18:00</p>
 				</div>
 				<div class="right">
