@@ -229,7 +229,7 @@
 				<ul>
 					<li>45 min / 45 £</li>
 				</ul>
-				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -237,7 +237,7 @@
 				<ul>
 					<li>90 min / 75 £</li>
 				</ul>
-				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -245,7 +245,7 @@
 				<ul>
 					<li>30 min / 30 £</li>
 				</ul>
-				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -253,7 +253,7 @@
 				<ul>
 					<li>60 min / 55 £</li>
 				</ul>
-				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -261,7 +261,7 @@
 				<ul>
 					<li>60 min / 50 £</li>
 				</ul>
-				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -269,7 +269,7 @@
 				<ul>
 					<li>60 min / 50 £</li>
 				</ul>
-				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -277,7 +277,7 @@
 				<ul>
 					<li>60 min / 50 £</li>
 				</ul>
-				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -285,7 +285,7 @@
 				<ul>
 					<li>30 min / 25 £</li>
 				</ul>
-				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.box -->
 			<div class="box">
@@ -293,7 +293,7 @@
 				<ul>
 					<li>30 min / 30 £</li>
 				</ul>
-				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn">Book now!</a>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.box -->
 		</div>
@@ -364,8 +364,8 @@
 				<li><i class="fas fa-map-marker-alt"></i>5 Lombard Street CT9 1EJ Margate</li>
 			</ul>
 			<ul class="socials">
-				<li><a href="https://www.facebook.com/holstictherapy/" target="_blank"><i class="fab fa-facebook-f"></i></i></a></li>
-				<li><a href="https://www.instagram.com/holistictherapy4you/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.facebook.com/holstictherapy/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></i></a></li>
+				<li><a href="https://www.instagram.com/holistictherapy4you/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
 			</ul>
 		</div>
 		<!-- /.left -->

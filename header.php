@@ -36,8 +36,8 @@
 				</div>
 				<div class="right">
 					<ul>
-						<li><a href="https://www.facebook.com/holstictherapy/" target="_blank"><i class="fab fa-facebook-f"></i></i></a></li>
-						<li><a href="https://www.instagram.com/holistictherapy4you/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/holstictherapy/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></i></a></li>
+						<li><a href="https://www.instagram.com/holistictherapy4you/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -49,18 +49,19 @@
 					<a href="<?= SITE_URL; ?>">Holistic Therapy</a>
 				</h1>
 				<ul>
-					<li><a href="<?= SITE_URL; ?><?php echo '/' ?>#about">About</a></li>
-					<li><a href="<?= SITE_URL; ?><?php echo '/' ?>#massages">Massages</a></li>
-					<li><a href="<?= SITE_URL; ?><?php echo '/' ?>#benefits">Benefits</a></li>
-					<li><a href="<?= SITE_URL; ?><?php echo '/' ?>#prices">Prices</a></li>
-					<li><a href="<?= SITE_URL; ?><?php echo '/' ?>#gallery">Gallery</a></li>
-					<li><a href="<?= SITE_URL; ?><?php echo '/' ?>#contact">Contact</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#massages">Massages</a></li>
+					<li><a href="#benefits">Benefits</a></li>
+					<li><a href="#prices">Prices</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<div class="toggle">
 					<span class="toggle__line"></span>
 					<span class="toggle__line"></span>
 					<span class="toggle__line"></span>
 				</div>
+				<a href="https://www.fresha.com/providers/ostrowiec85-b7ske4tt?pId=415941" class="btn btn-cta" target="_blank" rel="noopener noreferrer">Book now!</a>
 			</div>
 			<!-- /.container -->
 		</div>
